@@ -1,9 +1,10 @@
+import Food from "./food";
+
 const HomePage = () => {
   return (
-    <div className="container mx-auto pt-16">
+    <div className="flex flex-col min-h-screen">
       {" "}
-      {/* Tambahkan pt-16 untuk memberi ruang di bawah navbar */}
-      <h1 className="text-3xl font-bold">Welcome to Home Page</h1>
+      <Food />
     </div>
   );
 };
