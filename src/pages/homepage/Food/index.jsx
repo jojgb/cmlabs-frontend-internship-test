@@ -2,8 +2,8 @@ import axios from "axios";
 import { useCallback, useEffect, useState } from "react";
 import { FOOD_API } from "../../../constant/apiConstant";
 import EachUtils from "../../../utils/EachUtil";
-import FoodItem from "./FoodItem";
 import { useNavigate } from "react-router-dom";
+import FoodItem from "./FoodItem";
 
 const Food = () => {
   const [categories, setCategories] = useState([]);
